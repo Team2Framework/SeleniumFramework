@@ -11,6 +11,9 @@ public class HomePageTest extends HomePage {
         mainPage = PageFactory.initElements(driver, HomePage.class);
     }
     @Test
+    public void testViewWebsite() {
+        mainPage.ClickViewWebsite();
+    @Test
     public void testViewLogo() {
         mainPage.ClickViewLogo();
     }
