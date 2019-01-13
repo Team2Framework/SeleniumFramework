@@ -26,7 +26,7 @@ public class CommonAPI {
 
     public WebDriver driver = null;
 
-    @Parameters({"url"})
+    @Parameters({"https://shop.lululemon.com/"})
     @BeforeMethod
     public void setUP(String url){
         System.setProperty("webdriver.chrome.driver","/Users/dola/IdeaProjects/EbayBDD/Cucumber/Driver/chromedriver 4");
