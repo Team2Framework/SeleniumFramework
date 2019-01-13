@@ -21,8 +21,8 @@ public class SignIn extends CommonAPI {
     public void InputSignInPassWord() {
         SignInPassWord.sendKeys("abcd1234");
     }
-    @FindBy(xpath = (//*[@id="password"]))
-    public static WebElement;
+    @FindBy(xpath = ("//*[@id="password]"))
+    public static WebElement CreateAnAccount;
     public void ClickSignInButton() {
         //ViewSignInUser.click();
         ClickSignInButton().click();
