@@ -25,46 +25,48 @@ public class AssortmentCategories extends CommonAPI {
     public static WebElement ViewBottoms;
     @FindBy(xpath = "//h1[@class='page-title']")
     public static WebElement ViewWomenAll;
+    @FindBy(xpath = "//a[@href='/c/women-shoes/_/N-8f4?Nrpp=9']")
+    public static WebElement ViewShoes;
     @FindBy(xpath = "//a[contains(text(),'community')]")
     public static WebElement ViewCommunity;
 
-    public void ViewAssortments() {
-        ViewAssortments();
+    public void viewAssortments() {
+        viewAssortments().click();
 
         public void ViewWomenClothing(){
-            ViewAssortments();
+            viewAssortments();
             ViewWomenClothing.click();
         }
         public void ViewMenClothing (){
-            ViewAssortments();
-            ViewMenClothing.click();
+            viewAssortments();
+            ViewMenClothing.();
         }
-        public void ViewShoes (){
-            ViewAssortments();
+        public void ClickViewShoes() {
+            viewAssortments();
             ViewShoes.click();
         }
-        public void ViewGirls () {
-            ViewAssortments();
+        public void ClickViewGirls() {
+            viewAssortments();
             ViewGirls.click();
         }
-        public void ViewAccessories () {
-            ViewAssortments();
+        public void ClickViewAccessories() {
+            viewAssortments();
             ViewAccessories.click();
         }
-        public void ViewIntimate () {
-            ViewAssortments();
+        public void ClickViewIntimates() {
+            viewAssortments();
             ViewIntimate.click();
         }
-        public void ViewBottoms () {
-            ViewAssortments();
+        public void ClickViewBottoms() {
+            viewAssortments();
             ViewBottoms.click();
         }
-        public void ViewTops(){
-            ViewAssortments();
+        public void ClickViewTops() {
+           viewAssortments();
             ViewTops.click();
         }
-        public void ClickViewCollections() {
-            ViewAssortments();
+        public void ClickViewCollections(){
+            viewAssortments();
             ViewCollection.click();
         }
 
