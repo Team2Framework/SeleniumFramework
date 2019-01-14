@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
 
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
 
     @Parameters({"https://shop.lululemon.com/"})
     @BeforeMethod

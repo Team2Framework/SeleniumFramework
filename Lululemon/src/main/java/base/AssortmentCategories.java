@@ -3,12 +3,13 @@ package base;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 
 public class AssortmentCategories extends CommonAPI {
 
     @FindBy(xpath = "//a[contains(text(),'women')]")
-    public static WebElement ViewWomenClothing;
+     WebElement ViewWomenClothing;
     @FindBy(xpath = "//a[@href='/story/men?mnid=mn;en-US-JSON;men']")
     public static WebElement ViewMenClothing;
     @FindBy(xpath = "//a[contains(text(),'girls')]")
@@ -30,12 +31,15 @@ public class AssortmentCategories extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'community')]")
     public static WebElement ViewCommunity;
 
-    public void viewAssortments() {
-        viewAssortments().click();
+    public AssortmentCategories(){
+        PageFactory.initElements(driver, this);
+    }
 
-        public void ViewWomenClothing(){
-            viewAssortments();
-            ViewWomenClothing.click();
+    public void viewAssortments() {
+
+
+        public void viewWomenClothing(){
+
         }
         public void ViewMenClothing (){
             viewAssortments();

@@ -2,14 +2,11 @@ package base;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.w3c.dom.html.HTMLInputElement;
 
 public class HomePage extends CommonAPI {
 
     @FindBy(xpath = ("https://shop.lululemon.com/"))
     public static WebElement ViewWebsite;
-
-
     public void ClickViewWebsite() {
         ViewWebsite.click();
     }

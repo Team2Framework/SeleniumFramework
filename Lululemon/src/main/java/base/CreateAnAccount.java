@@ -3,7 +3,6 @@ package base;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import base.CommonAPI;
-import org.w3c.dom.html.HTMLInputElement;
 
 public class CreateAnAccount extends CommonAPI {
 
