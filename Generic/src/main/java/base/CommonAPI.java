@@ -29,7 +29,7 @@ public class CommonAPI {
     @Parameters({"https://shop.lululemon.com/"})
     @BeforeMethod
     public void setUP(String url){
-        System.setProperty("webdriver.chrome.driver","/Users/dola/IdeaProjects/EbayBDD/Cucumber/Driver/chromedriver 4");
+        System.setProperty("webdriver.chrome.driver","/Users/dola/IdeaProjects/SeleniumFramework/Generic/Browser-Driver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

@@ -17,6 +17,7 @@
             <class name="CreateAnAccountTest"/>
             <class name="MerchandiseSearchTest"/>
             <class name="HomePageTest"/>
+            <class name="AssortmentCategoriesTest"/>
         </classes>
     </test>
 

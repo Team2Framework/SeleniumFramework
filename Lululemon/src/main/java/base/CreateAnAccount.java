@@ -2,6 +2,7 @@ package base;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import base.CommonAPI;
 
 public class CreateAnAccount extends CommonAPI {
     @FindBy(xpath = ("//*[@id="content-wrapper"]/div/div[2]/div/div[2]/div/h4"))

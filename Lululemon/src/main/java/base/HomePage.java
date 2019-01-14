@@ -56,7 +56,7 @@ public class HomePage extends CommonAPI {
         ViewCommunity.click();
     }
 
-    @FindBy(xpath = ("//*[@id=\"main-content\"]/div/ul/div[1]/div/div/div/div/div[2]/div/div/div/nav/div/ul/li[1]/a"))
+    @FindBy(css = ("category-nav-item"))
     public static WebElement ViewBestSellers;
 
     public void ClickViewBestSellers() {
