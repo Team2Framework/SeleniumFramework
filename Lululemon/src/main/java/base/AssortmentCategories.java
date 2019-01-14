@@ -7,24 +7,26 @@ import org.openqa.selenium.support.FindBy;
 
 public class AssortmentCategories extends CommonAPI {
 
-    @FindBy(css = "#app > div > div > header > a")
+    @FindBy(xpath = "//a[contains(text(),'women')]")
     public static WebElement ViewWomenClothing;
-    @FindBy(xpath = "//*[@id=\"app\"]/div/div/header/section/div[1]/div/div[1]/ul/li[1]/a")
+    @FindBy(xpath = "//a[@href='/story/men?mnid=mn;en-US-JSON;men']")
     public static WebElement ViewMenClothing;
-    @FindBy(xpath = "//*[@id=\"app\"]/div/div/header/section/div[1]/div/div[1]/ul/li[3]/a")
+    @FindBy(xpath = "//a[contains(text(),'girls')]")
     public static WebElement ViewGirls;
-    @FindBy(xpath = "//*[@id=\"app\"]/div/div/header/section/div[1]/div/div[1]/ul/li[4]/a")
+    @FindBy(xpath = "//a[contains(text(),'collections')]")
     public static WebElement ViewCollection;
-    @FindBy(xpath = "//*[@id=\"app\"]/div/div/header/section/div[2]/div/div[1]/div/div[2]/div[2]/div[3]/h4/a")
+    @FindBy(xpath = "//a[@class='label with-children']")
     public static WebElement ViewIntimate;
-    @FindBy(xpath = "//*[@id=\"app\"]/div/div/header/section/div[2]/div/div[1]/div/div[2]/div[2]/div[4]/h4/a")
+    @FindBy(xpath = "//main[@id='main-content']")
     public static WebElement ViewAccessories;
-    @FindBy(xpath = "//*[@id=\"app\"]/div/div/header/section/div[2]/div/div[1]/div/div[2]/div[2]/div[1]/h4/a")
+    @FindBy(xpath = "//a[@class='label with-children']")
     public static WebElement ViewTops;
-    @FindBy(xpath = "//*[@id=\"app\"]/div/div/header/section/div[2]/div/div[1]/div/div[2]/div[2]/div[2]/h4/a")
+    @FindBy(xpath = "//a[@class='label with-children']")
     public static WebElement ViewBottoms;
-    @FindBy(xpath = "//*[@id=\"app\"]/div/div/header/section/div[2]/div/div[1]/div/div[2]/div[1]/div/ul/li[7]/a")
-    public static WebElement ViewAll;
+    @FindBy(xpath = "//h1[@class='page-title']")
+    public static WebElement ViewWomenAll;
+    @FindBy(xpath = "//a[contains(text(),'community')]")
+    public static WebElement ViewCommunity;
 
     public void ViewAssortments() {
         ViewAssortments();
@@ -39,7 +41,7 @@ public class AssortmentCategories extends CommonAPI {
         }
         public void ViewShoes (){
             ViewAssortments();
-            ViewAll.click();
+            ViewShoes.click();
         }
         public void ViewGirls () {
             ViewAssortments();
@@ -61,7 +63,7 @@ public class AssortmentCategories extends CommonAPI {
             ViewAssortments();
             ViewTops.click();
         }
-        public void ClickViewCollections () {
+        public void ClickViewCollections() {
             ViewAssortments();
             ViewCollection.click();
         }

@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3732d96f-6da3-451b-b092-bf8b4ca16439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lululemon/src/main/java/base/AssortmentCategories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lululemon/src/main/java/base/DropDownOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lululemon/src/test/java/AssortmentCategoriesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lululemon/src/test/java/DropDownTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TechnicalA/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TechnicalA/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TechnicalA/driver/chromedriver" afterDir="false" />
@@ -19,21 +15,14 @@
       <change beforePath="$PROJECT_DIR$/../Project2019" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2019" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SaksFifthAvenue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SaksFifthAvenue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SaksFifthAvenue/src/test/resources/SaksTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SaksFifthAvenue/src/test/resources/SaksTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lululemon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lululemon/src/main/java/base/AssortmentCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/src/main/java/base/AssortmentCategories.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lululemon/src/main/java/base/CreateAnAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/src/main/java/base/CreateAnAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lululemon/src/main/java/base/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/src/main/java/base/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lululemon/src/main/java/base/DropDownOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/src/main/java/base/DropDownOptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lululemon/src/main/java/base/MerchandiseSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/src/main/java/base/MerchandiseSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lululemon/src/main/java/base/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/src/main/java/base/SignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lululemon/src/test/java/CreateAnAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/src/test/java/CreateAnAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lululemon/src/test/java/MerchandiseSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/src/test/java/MerchandiseSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lululemon/src/test/java/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/src/test/java/SignInTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lululemon/src/test/resources/LululemonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/src/test/resources/LululemonTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lululemon/target/Lululemon-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lululemon/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lululemon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lululemon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lululemon/target/test-classes/LululemonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lululemon/target/test-classes/LululemonTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SeleniumMultiModuleMavenProjectFrameworks" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumMultiModuleMavenProjectFrameworks" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/SignIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+            <state relative-caret-position="572">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#282#283#0" expanded="true" />
@@ -64,10 +53,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/AssortmentCategories.java">
+        <entry file="file://$PROJECT_DIR$/Lululemon/src/test/java/SignInTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="11" column="89" selection-start-line="11" selection-start-column="89" selection-end-line="11" selection-end-column="89" />
+            <state relative-caret-position="630">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,6 +65,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/AssortmentCategories.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lululemon/src/test/java/MerchandiseSearchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/DropDownOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lululemon/src/test/java/AssortmentCategoriesTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
@@ -99,58 +124,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/DropDownOptions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lululemon/src/test/java/DropDownTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/CreateAnAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="1056">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
+                <element signature="e#1423#1424#0" expanded="true" />
+                <element signature="e#1471#1472#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/Lululemon/src/test/resources/LululemonTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lululemon/src/test/java/CreateAnAccountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="660">
+              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -158,8 +157,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/MerchandiseSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="2010">
+              <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#1583#1584#0" expanded="true" />
+                <element signature="e#1644#1645#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,22 +202,22 @@
         <option value="$PROJECT_DIR$/Ebay/src/main/java/base/EbayFashion.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/FashionTest.java" />
         <option value="$PROJECT_DIR$/Lululemon/src/test/java/SignIn.java" />
-        <option value="$PROJECT_DIR$/Lululemon/src/test/java/MerchandiseSearchTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Lululemon/src/test/java/SignInTest.java" />
         <option value="$PROJECT_DIR$/Lululemon/src/test/java/HomePageTest.java" />
-        <option value="$PROJECT_DIR$/Lululemon/src/test/resources/LululemonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Lululemon/pom.xml" />
         <option value="$PROJECT_DIR$/Lululemon/src/test/java/CreateAnAccountTest.java" />
         <option value="$PROJECT_DIR$/Lululemon/src/test/java/DropDownTest.java" />
-        <option value="$PROJECT_DIR$/Lululemon/src/main/java/base/CreateAnAccount.java" />
-        <option value="$PROJECT_DIR$/Lululemon/src/main/java/base/DropDownOptions.java" />
-        <option value="$PROJECT_DIR$/Lululemon/src/main/java/base/MerchandiseSearch.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Lululemon/src/main/java/base/SignIn.java" />
         <option value="$PROJECT_DIR$/Lululemon/src/main/java/base/HomePage.java" />
-        <option value="$PROJECT_DIR$/Lululemon/src/main/java/base/AssortmentCategories.java" />
         <option value="$PROJECT_DIR$/Lululemon/src/test/java/AssortmentCategoriesTest.java" />
+        <option value="$PROJECT_DIR$/Lululemon/src/test/resources/LululemonTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Lululemon/src/main/java/base/SignIn.java" />
+        <option value="$PROJECT_DIR$/Lululemon/src/test/java/MerchandiseSearchTest.java" />
+        <option value="$PROJECT_DIR$/Lululemon/src/main/java/base/MerchandiseSearch.java" />
+        <option value="$PROJECT_DIR$/Lululemon/src/main/java/base/DropDownOptions.java" />
+        <option value="$PROJECT_DIR$/Lululemon/src/test/java/SignInTest.java" />
+        <option value="$PROJECT_DIR$/Lululemon/src/main/java/base/CreateAnAccount.java" />
+        <option value="$PROJECT_DIR$/Lululemon/src/main/java/base/AssortmentCategories.java" />
       </list>
     </option>
   </component>
@@ -257,9 +263,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
-    <option name="y" value="39" />
-    <option name="width" value="1268" />
+    <option name="x" value="306" />
+    <option name="y" value="28" />
+    <option name="width" value="1302" />
     <option name="height" value="917" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -388,21 +394,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547474490093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547478942352" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Zack\IdeaProjects\SeleniumFramework\Generic\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lululemon/src/test" />
+      <recent name="$PROJECT_DIR$/Ebay/src/test" />
       <recent name="C:\Users\Zack\IdeaProjects\SeleniumFramework\Generic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utility" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Lululemon/src/test" />
-      <recent name="$PROJECT_DIR$/Ebay/src/test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zack\IdeaProjects\SeleniumFramework\Generic\src\main\java" />
       <recent name="C:\Users\Zack\IdeaProjects\SeleniumFramework\Generic" />
     </key>
   </component>
@@ -418,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DropDownTest">
+  <component name="RunManager" selected="TestNG./Users/dola/IdeaProjects/SeleniumFramework/Lululemon/src/test/resources/LululemonTestRunner.xml">
     <configuration name="DropDownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lululemon" />
       <option name="PACKAGE_NAME" value="" />
@@ -475,9 +481,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/dola/IdeaProjects/SeleniumFramework/Lululemon/src/test/resources/LululemonTestRunner.xml" />
         <item itemvalue="TestNG.DropDownTest" />
         <item itemvalue="TestNG.HomePageTest.testViewWebsite" />
-        <item itemvalue="TestNG./Users/dola/IdeaProjects/SeleniumFramework/Lululemon/src/test/resources/LululemonTestRunner.xml" />
         <item itemvalue="TestNG.HomePageTest.testViewWhatsNew" />
         <item itemvalue="TestNG./Users/dola/IdeaProjects/SeleniumFramework/Ebay/src/test/resources/EbayTestRunner.xml" />
       </list>
@@ -505,10 +511,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="72" width="1268" height="917" extended-state="0" />
+    <frame x="306" y="28" width="1302" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49463806" visible="true" weight="0.20473084" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49463806" visible="true" weight="0.19920635" />
       <window_info id="Structure" order="1" sideWeight="0.5060403" side_tool="true" weight="0.21073045" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -522,10 +528,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32902467" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32793018" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32793018" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32793018" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -565,18 +571,6 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Lululemon/src/main/java/base/SignIn.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
@@ -649,26 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lululemon/src/test/java/SignInTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lululemon/src/test/java/MerchandiseSearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lululemon/src/test/java/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -679,34 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lululemon/src/test/resources/LululemonTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="31" column="132" selection-start-line="31" selection-start-column="132" selection-end-line="31" selection-end-column="132" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lululemon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/CreateAnAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -730,49 +680,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/MerchandiseSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/SignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/DropDownOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lululemon/src/test/java/DropDownTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/AssortmentCategories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="11" column="89" selection-start-line="11" selection-start-column="89" selection-end-line="11" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -787,6 +698,106 @@
             <element signature="imports" expanded="true" />
             <element signature="e#656#657#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lululemon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lululemon/src/test/resources/LululemonTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lululemon/src/test/java/MerchandiseSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/MerchandiseSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/DropDownOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lululemon/src/test/java/SignInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/CreateAnAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lululemon/src/main/java/base/AssortmentCategories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

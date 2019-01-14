@@ -12,4 +12,4 @@ public class MerchandiseSearchTest extends MerchandiseSearch {
         search.searchItemsAndSubmitButton();
     }
 }
-}
+

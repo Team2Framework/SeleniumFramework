@@ -13,14 +13,16 @@ import java.util.List;
 public class MerchandiseSearch  extends  CommonAPI{
 
 
-    @FindBy(how = How.XPATH, using ="/html/body/header/div/nav/div[3]/ul/li[3]/a/svg")
+    @FindBy(how = How.XPATH, using ="//*[@class='icon-xlink icon-search']")
     public static WebElement search;
-    @FindBy(how = How.XPATH, using ="//*[@id=\"gh-btn\"]")
+    @FindBy(how = How.XPATH, using ="//div[@class='btn-search']//input[@type='submit']")
     public static WebElement submitButtonWebElement;
     public WebElement getSearchInputWebElement() {
+
         return getSearchInputWebElement();
     }
     public WebElement getSubmitButtonWebElement() {
+
         return submitButtonWebElement;
     }
     public void searchFor(String value){
@@ -43,10 +45,10 @@ public class MerchandiseSearch  extends  CommonAPI{
         }
     }
     public WebElement getSearchInputField() {
-        return getSearchInputWebElement();
+        return search;
     }
     public void setSearchInputField(WebElement searchInputField) {
-        this.getSearchInputWebElement() = searchInputField;
+        this.search = searchInputField;
     }
     public void searchItems() throws InterruptedException, IOException {
         List<String> itemList = getItemValue();
@@ -64,7 +66,10 @@ public class MerchandiseSearch  extends  CommonAPI{
         itemsList.add("Men's wear");
         itemsList.add("Hoodies");
         itemsList.add("Tights");
-        itemsList.add("Long sleeves");
+        itemsList.add("Accessories");
+        itemsList.add("Men's Tees");
+        itemsList.add("Men's bag");
+        itemsList.add("Girl's tights");
         return itemsList;
     }
 }
