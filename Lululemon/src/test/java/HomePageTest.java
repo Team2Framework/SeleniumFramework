@@ -64,7 +64,7 @@ public class HomePageTest extends HomePage {
         }
         @Test
         public void testViewSignOut () {
-            mainPage.ClickViewSignOut();
+            mainPage.ClickViewSocialImpact();
         }
         @Test
         public void testViewSearch () {
@@ -95,8 +95,8 @@ public class HomePageTest extends HomePage {
             mainPage.ClickViewJoggers();
         }
         @Test
-        public void testViewTights () {
-            mainPage.ClickViewTights();
+        public void testViewRunning () {
+            mainPage.ClickViewRunning();
         }
         @Test
         public void testViewJackets () {
@@ -150,6 +150,11 @@ public class HomePageTest extends HomePage {
         public void testViewEvents () {
             mainPage.ClickViewEvents();
         }
+        @Test
+        public void testSustainability () {
+            mainPage.ClickSustainability();
+        }
+
 
     }
 }
