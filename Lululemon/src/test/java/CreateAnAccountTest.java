@@ -4,7 +4,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class CreateAnAccountTest extends base.CreateAnAccount {
+public class CreateAnAccountTest extends CreateAnAccount {
     CreateAnAccount Create;
     @Parameters("https://shop.lululemon.com/")
 

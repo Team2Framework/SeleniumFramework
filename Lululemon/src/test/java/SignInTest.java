@@ -6,16 +6,16 @@ public class SignInTest extends SignIn {
     @Test
     //User should be able to click on sign in button
     public void testSignIn() {
-        ViewSignInUser signIn = PageFactory.initElements(driver, ViewSignInUser.class);
-        signIn.User();
+        SignIn signIn = PageFactory.initElements(driver, SignIn.class);
+        signIn.ClickViewSignInUser();
     }
     //User should be able to sign in using personal information
     @Test
     public void testSignInAccount() {
-        ViewSignInUser signIn = PageFactory.initElements(driver, ViewSignInUser.class);
-        signIn.ClickViewSignInUser();
-        signIn.InputSignInEmailorID();
-        signIn.InputSignInPassWord();
-        signIn.ClickSignInButton();
+        SignIn sg = PageFactory.initElements(driver, SignIn.class);
+        sg.ClickViewSignInUser();
+        sg.inputSignInEmail();
+        sg.inputSignInPassWord();
+        sg.ClickSignInButton();
     }
 }
