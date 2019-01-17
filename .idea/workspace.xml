@@ -13,6 +13,21 @@
       <change afterPath="$PROJECT_DIR$/../NewTourDemoaut/NewTour/src/main/java/pages/LogIn.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NewTourDemoaut/NewTour/src/main/java/pages/SelectFlight.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NewTourDemoaut/NewTour/src/test/java/base/test/NewTourHomeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/pages/CarsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/pages/CruisesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/pages/CustomerServicePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/pages/DealsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/pages/FlightsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/pages/ThingsToDoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/pages/test/CarsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/pages/test/CruisePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/pages/test/CustomerServicePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/pages/test/DealsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/pages/test/FlightsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/pages/test/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DolaProject" beforeDir="false" afterPath="$PROJECT_DIR$/../DolaProject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DreamProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DreamProject/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamProject/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -25,14 +40,22 @@
       <change beforePath="$PROJECT_DIR$/../MidtermNovember2018" beforeDir="false" afterPath="$PROJECT_DIR$/../MidtermNovember2018" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Netflix" beforeDir="false" afterPath="$PROJECT_DIR$/../Netflix" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project2019" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2019" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Web-Automation-November2018" beforeDir="false" afterPath="$PROJECT_DIR$/../Web-Automation-November2018" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebAutomation2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAutomation2018/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ZackProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZackProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../eBay2BDD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eBay2BDD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBay2BDD/Cucumber/src/test/java/runner/TestRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBay2BDD/Cucumber/src/test/java/runner/TestRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBay2BDD/Cucumber/target/test-classes/runner/TestRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/../eBay2BDD/Cucumber/target/test-classes/runner/TestRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBay2BDD/Cucumber/target/test-classes/stepDefinition/RegisterSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../eBay2BDD/Cucumber/target/test-classes/stepDefinition/RegisterSteps.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
+    <ignored path="$PROJECT_DIR$/Expedia/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,85 +63,123 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/FlightsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="-213">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3086#3087#0" expanded="true" />
-                <element signature="e#4001#4002#0" expanded="true" />
-                <element signature="e#4941#4942#0" expanded="true" />
-                <element signature="e#5059#5060#0" expanded="true" />
-                <element signature="e#6512#6513#0" expanded="true" />
-                <element signature="e#6842#6843#0" expanded="true" />
-                <element signature="e#6922#6923#0" expanded="true" />
-                <element signature="e#11151#11152#0" expanded="true" />
-                <element signature="e#11181#11182#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/CustomerServicePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="509">
+              <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/DealsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="-1599">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/pages/test/HomePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/CarsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="122" column="7" selection-start-line="118" selection-start-column="5" selection-end-line="122" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/CruisesPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/pages/test/CarsPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1920">
+              <caret line="285" column="7" selection-start-line="282" selection-start-column="6" selection-end-line="285" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/ThingsToDoPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1002">
+              <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +194,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,6 +204,23 @@
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Expedia/pom.xml" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/pages/FlightsPage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/pages/HotelsPage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/pages/CarsPage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/pages/CruisesPage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/pages/ThingsToDoPage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/pages/GetTheExpediaAppPage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/pages/CustomerServicePage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/pages/test/CarsPageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/pages/test/CruisePageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/pages/test/CustomerServicePageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/pages/test/DealsPageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/pages/DealsPage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/pages/test/FlightsPageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/pages/test/HomePageTest.java" />
       </list>
     </option>
   </component>
@@ -177,11 +256,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="265" />
-    <option name="y" value="80" />
-    <option name="width" value="1580" />
-    <option name="height" value="1030" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1075" />
+    <option name="y" value="81" />
+    <option name="width" value="783" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -189,6 +268,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,31 +279,25 @@
             <path>
               <item name="SeleniumFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="SeleniumFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SeleniumFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="SeleniumFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="Browser-Driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SeleniumFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SeleniumFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="SeleniumFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SeleniumFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="SeleniumFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -231,32 +305,56 @@
             <path>
               <item name="SeleniumFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="SeleniumFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547322375457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547747864510" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Zack\IdeaProjects\SeleniumFramework\Generic\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zack\IdeaProjects\SeleniumFramework\Expedia\src\test" />
       <recent name="C:\Users\Zack\IdeaProjects\SeleniumFramework\Generic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utility" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zack\IdeaProjects\SeleniumFramework\Generic\src\main\java" />
       <recent name="C:\Users\Zack\IdeaProjects\SeleniumFramework\Generic" />
     </key>
   </component>
@@ -272,6 +370,29 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="CarsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Expedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages.test" />
+      <option name="MAIN_CLASS_NAME" value="pages.test.CarsPageTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CarsPageTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -286,52 +407,38 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16174497" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19971672" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19971672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.32987553" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Mongo Explorer" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33144477" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3295129" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32987553" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -375,21 +482,188 @@
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="2278">
+          <caret line="155" column="20" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3019#3020#0" expanded="true" />
             <element signature="e#3086#3087#0" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
             <element signature="e#4001#4002#0" expanded="true" />
+            <element signature="e#4861#4862#0" expanded="true" />
             <element signature="e#4941#4942#0" expanded="true" />
+            <element signature="e#4992#4993#0" expanded="true" />
             <element signature="e#5059#5060#0" expanded="true" />
+            <element signature="e#6445#6446#0" expanded="true" />
             <element signature="e#6512#6513#0" expanded="true" />
+            <element signature="e#6802#6803#0" expanded="true" />
             <element signature="e#6842#6843#0" expanded="true" />
+            <element signature="e#6879#6880#0" expanded="true" />
             <element signature="e#6922#6923#0" expanded="true" />
             <element signature="e#11151#11152#0" expanded="true" />
             <element signature="e#11181#11182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/GetTheExpediaAppPage.java" />
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/HotelsPage.java" />
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/pages/test/CruisePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/pages/test/CustomerServicePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/pages/test/DealsPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/pages/test/FlightsPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/pages/test/CarsPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/CarsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="122" column="7" selection-start-line="118" selection-start-column="5" selection-end-line="122" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/CruisesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/CustomerServicePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/DealsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1599">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/FlightsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="285" column="7" selection-start-line="282" selection-start-column="6" selection-end-line="285" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/pages/ThingsToDoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1002">
+          <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/pages/test/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
