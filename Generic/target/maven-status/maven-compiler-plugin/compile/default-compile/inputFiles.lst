@@ -1,0 +1,10 @@
+/Users/dola/IdeaProjects/SeleniumFramework/Generic/src/main/java/base/CommonAPI.java
+/Users/dola/IdeaProjects/SeleniumFramework/Generic/src/main/java/reporting/ExtentManager.java
+/Users/dola/IdeaProjects/SeleniumFramework/Generic/src/main/java/databases/Student.java
+/Users/dola/IdeaProjects/SeleniumFramework/Generic/src/main/java/databases/ConnectToMongoDB.java
+/Users/dola/IdeaProjects/SeleniumFramework/Generic/src/main/java/databases/User.java
+/Users/dola/IdeaProjects/SeleniumFramework/Generic/src/main/java/reporting/TestLogger.java
+/Users/dola/IdeaProjects/SeleniumFramework/Generic/src/main/java/reporting/ApplicationLog.java
+/Users/dola/IdeaProjects/SeleniumFramework/Generic/src/main/java/reporting/ExtentTestManager.java
+/Users/dola/IdeaProjects/SeleniumFramework/Generic/src/main/java/databases/ConnectToSqlDB.java
+/Users/dola/IdeaProjects/SeleniumFramework/Generic/src/main/java/utility/DataReader.java

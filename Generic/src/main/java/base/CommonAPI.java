@@ -29,7 +29,7 @@ public class CommonAPI {
     @Parameters({"url"})
     @BeforeMethod
     public void setUP(String url){
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Zack\\IdeaProjects\\DreamTeamProject\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/Users/dola/IdeaProjects/EbayBDD/Cucumber/Driver/chromedriver 4");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
