@@ -14,11 +14,11 @@
     <test name = "Lululemon Home">
         <classes>
             <class name="SignInTest"/>
-            <class name="CreateAnAccountTest"/>
-            <class name="MerchandiseSearchTest"/>
-            <class name="HomePageTest"/>
-            <class name="AssortmentCategoriesTest"/>
-            <class name="DropDownTest"/>
+            <!--<class name="CreateAnAccountTest"/>-->
+            <!--<class name="MerchandiseSearchTest"/>-->
+            <!--<class name="HomePageTest"/>-->
+            <!--<class name="AssortmentCategoriesTest"/>-->
+            <!--<class name="DropDownTest"/>-->
         </classes>
     </test>
 

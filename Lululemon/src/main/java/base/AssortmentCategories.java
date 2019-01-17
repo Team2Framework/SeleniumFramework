@@ -30,49 +30,48 @@ public class AssortmentCategories extends CommonAPI {
     public static WebElement ViewShoes;
     @FindBy(xpath = "//a[contains(text(),'community')]")
     public static WebElement ViewCommunity;
+    @FindBy(xpath = "//main[@id='main-content']")
+    public static WebElement ViewAll;
 
     public AssortmentCategories(){
+
         PageFactory.initElements(driver, this);
     }
-
-    public void viewAssortments() {
-
-
+        public void viewAll() {
+        ViewAll.click();
+        }
         public void viewWomenClothing(){
-
+        ViewWomenClothing.click();
         }
-        public void ViewMenClothing (){
-            viewAssortments();
-            ViewMenClothing.();
+        public void viewWomenAll() {
+        ViewWomenAll.click();
         }
-        public void ClickViewShoes() {
-            viewAssortments();
-            ViewShoes.click();
+        public void viewCommunity() {
+        ViewCommunity.click();
         }
-        public void ClickViewGirls() {
-            viewAssortments();
-            ViewGirls.click();
+        public void viewMenClothing (){
+        ViewMenClothing.click();
         }
-        public void ClickViewAccessories() {
-            viewAssortments();
-            ViewAccessories.click();
+        public void ViewShoes() {
+        ViewShoes.click();
         }
-        public void ClickViewIntimates() {
-            viewAssortments();
-            ViewIntimate.click();
+        public void ViewGirls() {
+        ViewGirls.click();
         }
-        public void ClickViewBottoms() {
-            viewAssortments();
-            ViewBottoms.click();
+        public void ViewAccessories() {
+        ViewAccessories.click();
         }
-        public void ClickViewTops() {
-           viewAssortments();
-            ViewTops.click();
+        public void ViewIntimates() {
+        ViewIntimate.click();
         }
-        public void ClickViewCollections(){
-            viewAssortments();
-            ViewCollection.click();
+        public void ViewBottoms() {
+        ViewBottoms.click();
+        }
+        public void ViewTops() {
+        ViewTops.click();
+        }
+        public void ViewCollections(){
+        ViewCollection.click();
         }
 
     }
-}

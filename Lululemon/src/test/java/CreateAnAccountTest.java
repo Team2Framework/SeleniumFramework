@@ -15,18 +15,18 @@ public class CreateAnAccountTest extends CreateAnAccount {
     //User should be able to click on register user button
     @Test
     public void testViewRegister() {
-        Create.ClickViewRegisterUser();
+        Create.InputRegisterPassWord();
         driver.navigate().back();
     }
     //User should be able to create account with proper information
     @Test
     public void testCreateAccount() throws InterruptedException {
-        Create.ClickCreateAccountButton();
+        Create.clickSignUpForLululemonEmails();
         Thread.sleep(3000);
-        Create.InputRegisterEmail();
+        Create.Email();
         Create.InputRegisterPassWord();
       //  Create.InputSignUpForLululemonEmail();
-        Create.ClickCreateAccountButton();
+        Create.CreateAnAccount();
         driver.navigate().back();
     }
 }

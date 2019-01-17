@@ -14,6 +14,8 @@ public class HomePageTest extends HomePage {
     @Test
     public void testViewWebsite() {
         mainPage.ClickViewWebsite();
+    }
+
         @Test
         public void testViewLogo () {
             mainPage.ClickViewLogo();
@@ -82,14 +84,8 @@ public class HomePageTest extends HomePage {
         public void testViewTops () {
             mainPage.ClickViewTops();
         }
-        @Test
-        public void testViewLogo () {
-            mainPage.ClickViewLogo();
-        }
-        @Test
-        public void testViewWhatsNew () {
-            mainPage.ClickViewWhatsNew();
-        }
+
+
         @Test
         public void testViewJoggers () {
             mainPage.ClickViewJoggers();
@@ -157,4 +153,4 @@ public class HomePageTest extends HomePage {
 
 
     }
-}
+
