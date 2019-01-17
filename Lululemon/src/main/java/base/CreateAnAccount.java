@@ -8,8 +8,9 @@ public class CreateAnAccount extends CommonAPI {
 
     @FindBy(xpath = ("//h4[contains(text(),'Create an Account')]"))
     public static WebElement CreateAnAccount;
-    public void ClickSignUpButton(){
-        ClickSignUpButton().click();
+    public void CreateAnAccount(){
+
+        CreateAnAccount.click();
     }
     @FindBy(xpath = ("//input[@id='email-signup-account']"))
     public static WebElement Email;
@@ -20,17 +21,21 @@ public class CreateAnAccount extends CommonAPI {
     @FindBy(xpath = ("//input[@id='signup-submit']"))
     public static WebElement CreateAccount;
 
-    public void RegisterEmail() {
-        RegisterEmail().sendkeys("Doladaoud@icloud.com");
+    public void Email() {
+
+        Email.sendKeys("Doladaoud@icloud.com");
     }
     public void InputRegisterPassWord(){
-            RegisterPassWord.sendKeys("Shila123");
+
+        RegisterPassWord.sendKeys("Shila123");
             }
     public void clickSignUpForLululemonEmails(){
             SignUpForLululemonEmails.click();
+
 }
-    public void ClickCreateAnAccountButton(){
-            ClickCreateAnAccountButton().click();
+    public void CreateAAccount(){
+        CreateAccount.click();
+
 }
 
 }

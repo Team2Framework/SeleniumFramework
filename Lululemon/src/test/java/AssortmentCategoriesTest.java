@@ -1,4 +1,5 @@
 import base.AssortmentCategories;
+import org.apache.bcel.generic.PUSH;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -15,40 +16,47 @@ public class AssortmentCategoriesTest extends AssortmentCategories {
     @Test
     public void testViewAll() {
 
-        category.ViewAssortments();
+        category.viewAll();
     }
     @Test
     public void testViewMenClothing() {
 
-        category.ViewAssortments();
+        category.viewMenClothing();
     }
     @Test
     public void testViewCollection() {
-        category.ViewAssortments();
-    }
+
+       category.ViewCollections();
+   }
     @Test
     public void testViewGirlsClothing() {
 
-        category.ViewAssortments();
+        category.ViewGirls();
     }
     @Test
     public void testViewAccessories() {
 
-        category.ViewAssortments();
+        category.ViewAccessories();
     }
     @Test
     public void testViewTops() {
 
-        category.ViewAssortments();
+        category.ViewTops();
     }
     @Test
     public void testViewBottoms() {
 
-        category.ViewAssortments();
+        category.ViewBottoms();
     }
     @Test
     public void testViewIntimate() {
 
-        category.ViewAssortments();
+        category.ViewIntimates();
     }
+    @Test
+    public void testViewShoes(){
+        category.ViewShoes();
+    }
+    @Test
+    public void
 }
