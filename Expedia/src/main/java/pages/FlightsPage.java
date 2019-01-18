@@ -1,7 +1,6 @@
 package pages;
 
 import base.CommonAPI;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,10 +9,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.log4testng.Logger;
+
 import java.util.List;
 
+
 public class FlightsPage extends CommonAPI {
-    public static Logger log = Logger.getLogger(FlightsPage.class);
+    public static Logger log = (Logger) Logger.getLogger(FlightsPage.class);
     public FlightsPage(){
         PageFactory.initElements(driver,this);
     }

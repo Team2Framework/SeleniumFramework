@@ -13,23 +13,13 @@ public class CustomerServicePageTest extends CommonAPI {
     public void createTestObj(){
         this.customerServicePage = new CustomerServicePage();
     }
-
     @Test
     public void validateLabelText(){
         customerServicePage.CSLabelText();
     }
     @Test
     public void validatePhoneFieldTest() throws InterruptedException {
-        customerServicePage.verifyPhoneTextLabel();
-    }
-//    @Test
-//    public void addPropertyTest() throws InterruptedException {
-//        customerServicePage.verifyPropertyPageBannerText();
-//    }
-//    @Test
-//    public void searchResultsCount() throws InterruptedException {
-//        customerServicePage.getSearchResultCount();
-//    }
+        customerServicePage.verifyPhoneTextLabel(); }
     @Test
     public void pageUrlTest(){
         customerServicePage.properUrl();

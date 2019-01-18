@@ -1,10 +1,10 @@
 package pages.test;
+
 import pages.CruisesPage;
 import pages.HomePage;
 import base.CommonAPI;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 
 public class CruisePageTest extends CommonAPI {
     HomePage homePage;
@@ -13,9 +13,7 @@ public class CruisePageTest extends CommonAPI {
     @BeforeMethod
     public void setup(){
         homePage = new HomePage();
-        cruisesPage = homePage.clickCruisesLink();
-    }
-
+        cruisesPage = homePage.clickCruisesLink(); }
     @Test
     public void pageTitleValidateTest(){
         cruisesPage.pageTitleValidate();
@@ -34,34 +32,19 @@ public class CruisePageTest extends CommonAPI {
     }
     @Test
     public void yourFirstStopforDiscountCruisesLabelVisibilityTest(){
-        cruisesPage.yourFirstStopforDiscountCruisesLabelVisibility();
-    }
+        cruisesPage.yourFirstStopforDiscountCruisesLabelVisibility(); }
     @Test
     public void cruiseDealsandDiscountsontheBestCruiseLinesLabelVisibilityTest(){
-        cruisesPage.cruiseDealsandDiscountsontheBestCruiseLinesLabelVisibility();
-    }
+        cruisesPage.cruiseDealsandDiscountsontheBestCruiseLinesLabelVisibility(); }
     @Test
     public void enjoytThetBestCruiseTravelDestinationsLabelVisibilityTest(){
-        cruisesPage.enjoytThetBestCruiseTravelDestinationsLabelVisibility();
-    }
+        cruisesPage.enjoytThetBestCruiseTravelDestinationsLabelVisibility(); }
     @Test
     public void lastMinuteCruiseDealsVacationIdeasLabelVisibilityTest(){
-        cruisesPage.lastMinuteCruiseDealsVacationIdeasLabelVisibility();
-    }
+        cruisesPage.lastMinuteCruiseDealsVacationIdeasLabelVisibility(); }
     @Test
     public void takeAVacationonTheseAllInclusiveCruisesLabelVisibilityTest(){
         cruisesPage.takeAVacationonTheseAllInclusiveCruisesLabelVisibility();
     }
-//    @Test
-//    public void discountCruisesCountTest(){cruisesPage.discountCruisesCount(); }
-//    @Test
-//    public void bestCruisesCountTest(){cruisesPage.bestCruisesCount();}
-//    @Test
-//    public void destinationCruisesCountTest(){cruisesPage.destinationCruisesCount(); }
-//    @Test
-//    public void lastMinuteCruisesCountTest(){cruisesPage.lastMinuteCruisesCount(); }
-//    @Test
-//    public void allInclusiveCruisesCountTest(){cruisesPage.allInclusiveCruisesCount(); }
-
 }
 
