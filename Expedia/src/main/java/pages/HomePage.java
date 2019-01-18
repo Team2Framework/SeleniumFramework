@@ -184,15 +184,15 @@ public class HomePage extends CommonAPI {
 //    }
     public void searchRoundTripFlightOneAdult(String from, String destination,String departing, String returning) throws InterruptedException {
         FlightOnlyTab.click();
-        Thread.sleep(900);
+        Thread.sleep(500);
         RoundTripButton.click();
-        Thread.sleep(900);
+        Thread.sleep(500);
         FlyFromField.sendKeys(from);
-        Thread.sleep(900);
+        Thread.sleep(500);
         FlyingToField.sendKeys(destination);
-        Thread.sleep(900);
+        Thread.sleep(500);
         DepartingField.sendKeys(departing);
-        Thread.sleep(900);
+        Thread.sleep(500);
         ReturningField.sendKeys(returning);
 //        FlightOnlySearchButton.click();
 //        Thread.sleep(900);

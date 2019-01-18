@@ -9,12 +9,10 @@ import org.testng.annotations.Test;
 public class CarsPageTest extends CommonAPI {
     HomePage homePage;
     CarsPage carsPage;
-
     @BeforeMethod
     public void setup(){
         homePage = new HomePage();
-        carsPage = homePage.clickCarsLink();
-    }
+        carsPage = homePage.clickCarsLink(); }
     @Test
     public void testCarTabIsUnderLined(){
         carsPage.carTabIsUnderLined();
@@ -23,16 +21,13 @@ public class CarsPageTest extends CommonAPI {
     public void testCarPageBannerIsDisplayed(){
         carsPage.carPageBannerIsDisplayed();
     }
-//    @Test
-//    public void testCarPageBannerValidText(){ carsPage.carPageBannerValidText(); }
     @Test
     public void testcarTabIsSelected(){
         carsPage.carTabIsSelected();
     }
     @Test
     public void testCarHotelTabIsSelected() throws InterruptedException {
-        carsPage.carHotelTabIsSelected();
-    }
+        carsPage.carHotelTabIsSelected(); }
     @Test
     public void testCarHotelFlightTabIsSelected(){
         carsPage.carHotelFlightTabIsSelected();
@@ -53,18 +48,6 @@ public class CarsPageTest extends CommonAPI {
     public void testDomesticRentalsLabelFont(){
         carsPage.domesticRentalsLabelVisible();
     }
-//    @Test
-//    public void testInternationalRentalCarsHeight(){
-//        carsPage.internationalRentalCarsLineHeight();
-//    }
-//    @Test
-//    public void testDomesticRentalsListCount(){
-//        carsPage.domesticRentalsListCount();
-//    }
-//    @Test
-//    public void testInternationalRentalsListCount(){
-//        carsPage.internationalRentalsListCount();
-//    }
     @Test
     public void testPageUrl() {
         carsPage.properUrl();

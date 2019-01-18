@@ -1,8 +1,10 @@
 package pages;
 
 import base.CommonAPI;
-//import com.google.api.services.sheets.v4.Sheets;
-//import com.google.api.services.sheets.v4.model.ValueRange;
+import com.google.api.services.sheets.v4.Sheets;
+import com.google.api.services.sheets.v4.model.ValueRange;
+import com.google.api.services.sheets.v4.Sheets;
+import com.google.api.services.sheets.v4.model.ValueRange;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,6 +14,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import java.io.IOException;
 import java.util.List;
+
+import static TestData.GoogleSheetReader.getSheetsService;
 
 public class ThingsToDoPage extends CommonAPI {
     public ThingsToDoPage(){
