@@ -1,17 +1,17 @@
 package NYHome;
 
 import base.CommonAPI;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Optional;
 
 public class NYHomePage extends CommonAPI {
 
     public void setUp(@Optional("https://www.nytimes.com/") String url){
-
     }
-
     @FindBy(css = "#app > div > div > header > section.css-1waixk9.e1nre7572 > div.css-qo6pn.emxkhtz0 > div.css-6n7j50 > button > svg")
     public static WebElement menu;
     @FindBy(xpath = "//*[@id=\"app\"]/div[2]/div/header/div[4]/ul/li[10]/a")
@@ -36,46 +36,57 @@ public class NYHomePage extends CommonAPI {
     public static WebElement travel;
     @FindBy(xpath = "//*[@id=\"app\"]/div[2]/div/header/div[4]/ul/li[16]/a")
     public static WebElement magazine;
-
-
-    public static void setMenu(WebDriver driver) throws InterruptedException {
+    @FindBy(css = "#app > div:nth-child(2) > div > header > section.hasLinks.css-1rl68kf.ea53akk3 > div.css-bfvq22.ea53akk2 > a")
+    public static WebElement todayspaper;
+    @FindBy(xpath = "/html/body/div[5]/div/div/div[2]/form/div/input")
+    public static WebElement menusearch;
+    public void nyHome(){
+        PageFactory.initElements(driver, this);
+    }
+    public void setMenu() throws InterruptedException {
         menu.click();
         Thread.sleep(3000);
     }
-    public static void sportspage(WebDriver driver) throws InterruptedException {
+    public void sportspage() throws InterruptedException {
         sports.click();
     }
-    public static void setScience(WebDriver driver) throws InterruptedException {
+    public void setScience() throws InterruptedException {
         science.click();
     }
-    public static void setBusiness(WebDriver driver) throws InterruptedException {
+    public void setBusiness() throws InterruptedException {
         business.click();
     }
-    public static void setOpinion(WebDriver driver) throws InterruptedException {
+    public void setOpinion(WebDriver driver) throws InterruptedException {
         opinion.click();
     }
-    public static void setHealth(WebDriver driver) throws InterruptedException {
+    public void setHealth() throws InterruptedException {
         health.click();
     }
-    public static void setArts(WebDriver driver) throws InterruptedException {
+    public void setArts() throws InterruptedException {
         arts.click();
     }
-    public static void setBooks(WebDriver driver) throws InterruptedException {
+    public void setBooks() throws InterruptedException {
         books.click();
     }
-    public static void setStyle(WebDriver driver) throws InterruptedException {
+    public void setStyle() throws InterruptedException {
         style.click();
     }
-    public static void setFood(WebDriver driver) throws InterruptedException {
+    public void setFood(WebDriver driver) throws InterruptedException {
         food.click();
     }
-    public static void setTravel(WebDriver driver) throws InterruptedException {
+    public void setTravel() throws InterruptedException {
         travel.click();
     }
-    public static void setMagazine(WebDriver driver) throws InterruptedException {
+    public void setMagazine() throws InterruptedException {
         magazine.click();
     }
-
+    public void setTodaysP(WebDriver driver) throws InterruptedException {
+        todayspaper.click();
+        Thread.sleep(3000);
+    }
+    public String validateNYTitle(){
+        return driver.getTitle();
+    }
 
 
 
