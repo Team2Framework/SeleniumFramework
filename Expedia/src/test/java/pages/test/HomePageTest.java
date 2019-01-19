@@ -13,7 +13,7 @@ public class HomePageTest extends CommonAPI {
     HomePage homePage;
     ExtentReports report;
     XSSFDataReader xssfDataReader;
-    String path = "/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/java/Tests/TestFiles/KeyWordDrivenSheet.xlsx";
+    String path = "C:\\Users\\Zack\\IdeaProjects\\SeleniumFramework\\Expedia\\src\\test\\java\\testFiles\\ExpediaTestData.xlsx";
 
     @BeforeMethod
     public void createTestObj() throws Exception {

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name=" Expedia API Automation Script " parallel="false">
+
+    <listeners>
+        <listener class-name="reporting.ExtentReporterNG"/>
+    </listeners>
+    <parameter name="useCloud" value="false"/>
+    <parameter name="browser" value="chrome"/>
+
+    <test name = "HomePageTest(windows/Chrome)">
+        <parameter name="platform" value="Windows"/>
+        <parameter name="url" value="https://www.expedia.com"/>
+        <classes>
+            <class name="pages.test.HomePageTest"/>
+        </classes>
+    </test>
+    <test name = "CarsPageTest(windows/Chrome)">
+        <parameter name="platform" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.expedia.com/Cars"/>
+        <classes>
+            <class name="pages.test.CarsPageTest"/>
+        </classes>
+    </test>
+    <test name = "LoginPageTest(windows/chrome)">
+        <parameter name="platform" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.expedia.com/user/signin"/>
+        <classes>
+            <class name="pages.test.LoginPageTest"/>
+        </classes>
+    </test>
+    <test name = "CustomerServicePageTest(windows/Chrome)">
+        <parameter name="platform" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.expedia.com"/>
+        <classes>
+            <class name="pages.test.CustomerServicePageTest"/>
+        </classes>
+    </test>
+    <test name = "ThingstoDoPageTest(windows/Chrome)">
+        <parameter name="platform" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.expedia.com"/>
+        <classes>
+            <class name="pages.test.ThingsToDoPageTest"/>
+        </classes>
+    </test>
+    <test name = "CruisePageTest(windows/Chrome)">
+        <parameter name="platform" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.expedia.com"/>
+        <classes>
+            <class name="pages.test.CruisePageTest"/>
+        </classes>
+    </test>
+    <test name = "DealsPageTest(windows/Chrome)">
+        <parameter name="platform" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.expedia.com"/>
+        <classes>
+            <class name="pages.test.DealsPageTest"/>
+        </classes>
+    </test>
+    <test name = "FlightsPageTest(windows/Chrome)">
+        <parameter name="platform" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.expedia.com"/>
+        <classes>
+            <class name="pages.test.FlightsPageTest"/>
+        </classes>
+    </test>
+</suite>

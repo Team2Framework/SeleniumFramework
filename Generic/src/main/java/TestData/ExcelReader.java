@@ -10,7 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class ExcelReader {
-    public static String Path = "/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/java/Tests/TestFiles/ExpediaTestData.xls";
+    public static String Path = "C:\\Users\\Zack\\IdeaProjects\\SeleniumFramework\\Expedia\\src\\test\\java\\testFiles\\ExpediaTestData.xlsx";
     static Workbook book;
     static Sheet sheet;
     static String [] parsedData;

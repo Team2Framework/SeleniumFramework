@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import java.io.File;
@@ -28,8 +29,8 @@ public class CommonAPI {
 
     @Parameters({"url"})
     @BeforeMethod
-    public void setUP(String url){
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Zack\\IdeaProjects\\DreamTeamProject\\Drivers\\chromedriver.exe");
+    public void setUP(@Optional("https://www.expedia.com/user/signin") String url){
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Zack\\IdeaProjects\\TechnicalA\\driver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -325,9 +326,12 @@ public class CommonAPI {
             System.out.println("CSS locator didn't work");
         }
     }
-
-
-
+    public static void typeOnWebElement(WebElement we, String value) {
+        we.sendKeys(value);
+    }
+    public  static void clickOnWebElement(WebElement we){
+        we.click();
+    }
 
 
     @AfterMethod
