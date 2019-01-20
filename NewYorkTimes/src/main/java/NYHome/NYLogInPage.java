@@ -34,14 +34,15 @@ public class NYLogInPage extends CommonAPI {
     @FindBy(css = "#myAccountAuth > div > div > div > div > h2")
     public static WebElement logintitle;
     public void LoginPage(){
+
         PageFactory.initElements(driver, this);
     }
-
     public String validateLoginPageTitle(){
+
         return driver.getTitle();
     }
-
     public boolean validateNYImage(){
+
         return logoimage.isDisplayed();
     }
     public void logIn(String user, String pass){

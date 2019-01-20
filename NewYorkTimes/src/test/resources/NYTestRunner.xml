@@ -11,9 +11,12 @@
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
 
-    <test name="NY Times Home">
+    <test name="NY Times Home" preserve-order="true">
         <classes>
             <class name = "NYTest.NYHomePageTest"></class>
+            <class name = "NYTest.NYMenuTest"></class>
+            <class name = "NYTest.NYLogInTest"></class>
+            <class name = "NYTest.NYScienceTest"></class>
         </classes>
     </test>
 </suite>

@@ -6,12 +6,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
 
 import static java.lang.Thread.sleep;
 
 public class NYMenuTest extends NYMenuPage {
     NYMenuPage nymenu = PageFactory.initElements(driver, NYMenuPage.class);
+    public void setUp3(@Optional("https://www.nytimes.com/") String url){
+    }
     @BeforeMethod
     @Test
     public void clickOnSearch() throws InterruptedException {

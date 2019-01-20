@@ -1,24 +1,29 @@
 package NYTest;
 
 import NYHome.NYHomePage;
+import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
 
 import static java.lang.Thread.sleep;
 
 public class NYHomePageTest extends NYHomePage {
     NYHomePage nyHomePage = PageFactory.initElements(driver, NYHomePage.class);
+
+    public void setUp1(@Optional("https://www.nytimes.com/") String url){
+    }
     @BeforeMethod
     @Test
     public String getHomeTitle(){
         System.out.println(driver.getTitle());
-        String home_title =nyHomePage.validateNYTitle();
-        Assert.assertEquals(home_title,"Breaking News, World News & Multimedia - The New York Times");
-        return home_title;
+        String hometitle =nyHomePage.validateNYTitle();
+        Assert.assertEquals(hometitle,"Breaking News, World News & Multimedia - The New York Times");
+        return hometitle;
     }
     @Test
     public void Menu1() throws InterruptedException {
@@ -67,10 +72,17 @@ public class NYHomePageTest extends NYHomePage {
     }
     @Test
     public void getTodaysPaper() throws InterruptedException {
-        todayspaper.click();
+        nyHomePage.todayspaper.click();
         sleep(2);
         String Actual = driver.findElement(By.cssSelector("#collection-todays-new-york-times > div > section:nth-child(1) > div.css-1s5mpje.ekkqrpp1 > ol > li:nth-child(1) > article > div > h2 > a")).getText();
         System.out.println(Actual);
     }
-
+    @Test
+    public void setSubscribe()throws InterruptedException{
+        nyHomePage.clickByXpathWebElement(subscribe);
+    }
+    @Test
+    public void setWorldNews(){
+        nyHomePage.setWorldNew();
+    }
 }
