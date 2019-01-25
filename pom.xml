@@ -11,6 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>Expedia</module>
+        <module>RestAPI</module>
     </modules>
 
     <dependencyManagement>
